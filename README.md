@@ -1,16 +1,29 @@
-# ecommerce_app
+🛍️ LADY HAND - E-Commerce App
+A Flutter-based e-commerce app for LADY HAND, allowing customers to customize their products by choosing colors, shapes, and scents. All products are handmade and made from natural ingredients.
 
-A new Flutter project.
+🚀 Features
+✅ Browse and purchase products
+✅ Customize products (color, shape, scent)
+✅ Secure authentication (Login/Signup)
+✅ Shopping cart and checkout
+✅ Order tracking
 
-## Getting Started
+🛠️ Technologies Used
+Flutter
+Firebase (Auth, Firestore, Storage)
+GetX
 
-This project is a starting point for a Flutter application.
+🚀 Getting Started
+1️⃣ Clone the Repository:
+git clone https://github.com/Lydia-George/e-commerce-App.git
 
-A few resources to get you started if this is your first Flutter project:
+2️⃣ Install Dependencies :
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3️⃣ Run the App :
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📩 Contact  
+For any inquiries, reach out via [📧 georgelydia42@gmail.com](mailto:georgelydia42@gmail.com) or open an issue.  
+
+
