@@ -36,7 +36,6 @@ class StoreScreen extends StatelessWidget {
           actions: [
             TCartCounterIcon(
               iconColor: isDark ? TColors.secondaryColor : TColors.primaryColor,
-              onPressed: () {},
             )
           ],
         ),
