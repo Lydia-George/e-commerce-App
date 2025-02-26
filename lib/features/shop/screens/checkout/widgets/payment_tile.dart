@@ -2,7 +2,6 @@ import 'package:ecommerce_app/common/widgets/custom_shapes/containers/circular_c
 import 'package:ecommerce_app/features/shop/controllers/product/checkout_controller.dart';
 import 'package:ecommerce_app/features/shop/models/payment_method_model.dart';
 import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/constants/enums.dart';
 import 'package:ecommerce_app/utlis/constants/sizes.dart';
 import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';

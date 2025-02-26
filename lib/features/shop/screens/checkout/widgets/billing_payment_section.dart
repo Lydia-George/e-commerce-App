@@ -5,7 +5,6 @@ import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../../utlis/constants/image_strings.dart';
 import '../../../../../utlis/constants/sizes.dart';
 import '../../../controllers/product/checkout_controller.dart';
 
