@@ -18,6 +18,7 @@ class TCartItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final cartController = CartController.instance;
+
     return Obx(
       () => ListView.separated(
         shrinkWrap: true,
