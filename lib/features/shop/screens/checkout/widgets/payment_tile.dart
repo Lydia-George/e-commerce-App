@@ -30,7 +30,7 @@ class TPaymentTile extends StatelessWidget {
         child: Image(image: AssetImage(paymentMethod.image) , fit: BoxFit.contain,),
       ),
       title: Text(paymentMethod.name),
-      trailing: Icon(Iconsax.arrow_right_34),
+      trailing: const Icon(Iconsax.arrow_right_34),
     );
   }
 }

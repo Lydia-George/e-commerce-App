@@ -25,7 +25,7 @@ class CheckoutController extends GetxController {
         context: context,
         builder: (_) => SingleChildScrollView(
               child: Container(
-                padding: EdgeInsets.all(TSizes.lg),
+                padding: const EdgeInsets.all(TSizes.lg),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
