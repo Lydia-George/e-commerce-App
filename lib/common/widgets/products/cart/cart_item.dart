@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 import '../../../../features/shop/models/cart_item_model.dart';
-import '../../../../utlis/constants/colors.dart';
-import '../../../../utlis/constants/image_strings.dart';
-import '../../../../utlis/constants/sizes.dart';
-import '../../../../utlis/helpers/helper_functions.dart';
+
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/helper_functions.dart';
 import '../../images/rounded_image.dart';
 import '../../texts/category_title_text_with_verified_icon.dart';
 import '../../texts/product_title_text.dart';

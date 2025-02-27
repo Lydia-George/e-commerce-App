@@ -1,8 +1,10 @@
 import 'package:ecommerce_app/common/widgets/loaders/animation_loader.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../constants/colors.dart';
+import '../helpers/helper_functions.dart';
 
 /// A utility class for managing a full-screen loading dialog .
 class TFullScreenLoader {

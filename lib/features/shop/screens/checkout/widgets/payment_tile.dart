@@ -1,9 +1,9 @@
 import 'package:ecommerce_app/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:ecommerce_app/features/shop/controllers/product/checkout_controller.dart';
 import 'package:ecommerce_app/features/shop/models/payment_method_model.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+import 'package:ecommerce_app/utils/constants/colors.dart';
+import 'package:ecommerce_app/utils/constants/sizes.dart';
+import 'package:ecommerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';

@@ -1,13 +1,13 @@
 import 'package:ecommerce_app/features/personalization/controllers/user_controller.dart';
-import 'package:ecommerce_app/utlis/helpers/network_manager.dart';
-import 'package:ecommerce_app/utlis/popups/full_screen_loader.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
 import '../../../../data/repositories/authentication/authentication_repository.dart';
-import '../../../../utlis/constants/image_strings.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/helpers/network_manager.dart';
+import '../../../../utils/popups/full_screen_loader.dart';
+import '../../../../utils/popups/loaders.dart';
 
 class LoginController extends GetxController {
   /// Variables

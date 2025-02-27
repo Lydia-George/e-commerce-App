@@ -4,12 +4,13 @@ import 'package:ecommerce_app/features/shop/controllers/product/cart_controller.
 import 'package:ecommerce_app/features/shop/screens/cart/widgets/cart_items.dart';
 import 'package:ecommerce_app/features/shop/screens/checkout/checkout.dart';
 import 'package:ecommerce_app/navigation_menu.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/constants/image_strings.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/helper_functions.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});

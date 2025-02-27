@@ -1,10 +1,10 @@
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../utlis/constants/colors.dart';
-
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 class TProfileMenu extends StatelessWidget {
   const TProfileMenu({
     super.key,

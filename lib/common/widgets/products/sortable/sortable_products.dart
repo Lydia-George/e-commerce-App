@@ -1,13 +1,12 @@
 import 'package:ecommerce_app/features/shop/controllers/all_products_controller.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
-
-import '../../../../utlis/constants/sizes.dart';
-import '../../../../utlis/helpers/helper_functions.dart';
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/helper_functions.dart';
 import '../../layouts/grid_layout.dart';
 import '../product_cards/product_card_vertical.dart';
 

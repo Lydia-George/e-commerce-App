@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ecommerce_app/utlis/formatters/formatters.dart';
 
+import '../../../utils/formatters/formatters.dart';
 class AddressModel {
   String id;
   final String name;

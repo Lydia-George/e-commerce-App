@@ -1,8 +1,9 @@
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
-import '../../../utlis/constants/colors.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/helpers/helper_functions.dart';
+
 
 class TShimmerEffect extends StatelessWidget {
   final double width, height, radius;

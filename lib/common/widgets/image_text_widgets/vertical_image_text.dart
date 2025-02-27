@@ -1,9 +1,11 @@
 import 'package:ecommerce_app/common/widgets/images/circular_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/constants/sizes.dart';
-import '../../../utlis/helpers/helper_functions.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/helpers/helper_functions.dart';
+
+
 
 class TVerticalImageText extends StatelessWidget {
   const TVerticalImageText({

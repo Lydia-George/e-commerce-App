@@ -2,9 +2,10 @@ import 'package:ecommerce_app/features/authentication/controllers/login/login_co
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/constants/image_strings.dart';
-import '../../../utlis/constants/sizes.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/constants/sizes.dart';
+
 
 
 class TSocialButtons extends StatelessWidget {

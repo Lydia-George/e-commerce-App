@@ -1,8 +1,8 @@
 import 'package:ecommerce_app/common/widgets/texts/category_title_text.dart';
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/constants/enums.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/enums.dart';
 
 class TCategoryTitleWithVertifiedIcon extends StatelessWidget {
   const TCategoryTitleWithVertifiedIcon({

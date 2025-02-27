@@ -6,8 +6,8 @@ import 'package:get/get.dart';
 
 import '../../../../../common/widgets/custom_appbar/appbar.dart';
 import '../../../../../common/widgets/products/cart/cart_menu_icon.dart';
-import '../../../../../utlis/constants/colors.dart';
-import '../../../../../utlis/constants/text_strings.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/text_strings.dart';
 
 class THomeAppBar extends StatelessWidget {
   const THomeAppBar({

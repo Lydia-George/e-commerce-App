@@ -4,13 +4,13 @@ import 'package:ecommerce_app/common/widgets/texts/section_heading.dart';
 import 'package:ecommerce_app/features/shop/models/category_model.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
 import 'package:ecommerce_app/features/shop/screens/store/widgets/category_subtitle.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../common/widgets/categories/category_show_case.dart';
 import '../../../../../common/widgets/layouts/grid_layout.dart';
-import '../../../../../utlis/constants/image_strings.dart';
-import '../../../../../utlis/constants/sizes.dart';
+import '../../../../../utils/constants/image_strings.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 class TCategoryTab extends StatelessWidget {
   const TCategoryTab({super.key, required this.category});
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../utlis/constants/colors.dart';
+import '../../utils/constants/colors.dart';
+
 class TShadowStyle{
   static final verticalProductShadow = BoxShadow(
     color: TColors.darkGrey.withOpacity(0.1),

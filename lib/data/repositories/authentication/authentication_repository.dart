@@ -3,17 +3,18 @@ import 'package:ecommerce_app/features/authentication/screens/login/login_screen
 import 'package:ecommerce_app/features/authentication/screens/onboarding/onboarding_screen.dart';
 import 'package:ecommerce_app/features/authentication/screens/signup/verify_email.dart';
 import 'package:ecommerce_app/navigation_menu.dart';
-import 'package:ecommerce_app/utlis/exceptions/firebase_auth_exceptions.dart';
-import 'package:ecommerce_app/utlis/exceptions/firebase_exceptions.dart';
-import 'package:ecommerce_app/utlis/exceptions/format_exceptions.dart';
-import 'package:ecommerce_app/utlis/exceptions/platform_exceptions.dart';
-import 'package:ecommerce_app/utlis/local_storage/storage_utility.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+
+import '../../../utils/exceptions/firebase_auth_exceptions.dart';
+import '../../../utils/exceptions/firebase_exceptions.dart';
+import '../../../utils/exceptions/format_exceptions.dart';
+import '../../../utils/exceptions/platform_exceptions.dart';
+import '../../../utils/local_storage/storage_utility.dart';
 
 class AuthenticationRepository extends GetxController {
   static AuthenticationRepository get instance => Get.find();

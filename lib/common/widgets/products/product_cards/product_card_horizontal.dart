@@ -5,15 +5,16 @@ import 'package:ecommerce_app/common/widgets/texts/category_title_text_with_veri
 import 'package:ecommerce_app/common/widgets/texts/product_price_text.dart';
 import 'package:ecommerce_app/common/widgets/texts/product_title_text.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
-import 'package:ecommerce_app/utlis/constants/enums.dart';
-import 'package:ecommerce_app/utlis/constants/image_strings.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../features/shop/controllers/product/product_controller.dart';
-import '../../../../utlis/constants/colors.dart';
-import '../../../../utlis/constants/sizes.dart';
+
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/enums.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/helper_functions.dart';
 import '../../icons/circular_icon.dart';
 
 class TProductCardHorizontal extends StatelessWidget {

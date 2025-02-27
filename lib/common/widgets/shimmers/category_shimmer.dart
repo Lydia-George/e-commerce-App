@@ -1,6 +1,7 @@
 import 'package:ecommerce_app/common/widgets/shimmers/shimmer.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
 import 'package:flutter/material.dart';
+
+import '../../../utils/constants/sizes.dart';
 
 class TCategoryShimmer extends StatelessWidget {
   const TCategoryShimmer({

@@ -1,16 +1,16 @@
 import 'package:ecommerce_app/data/repositories/user/user_repository.dart';
 import 'package:ecommerce_app/features/authentication/screens/login/login_screen.dart';
-import 'package:ecommerce_app/utlis/constants/image_strings.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/network_manager.dart';
-import 'package:ecommerce_app/utlis/popups/full_screen_loader.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/popups/full_screen_loader.dart';
+import '../../../utils/popups/loaders.dart';
 import '../models/user_model.dart';
 import 'package:ecommerce_app/features/personalization/screens/profile/widgets/re_authenticate_user.dart';
 

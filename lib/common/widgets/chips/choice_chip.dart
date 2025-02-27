@@ -1,8 +1,10 @@
 import 'package:ecommerce_app/common/widgets/custom_shapes/containers/circular_container.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/colors.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/helpers/helper_functions.dart';
+
+
 
 class TChoiceChip extends StatelessWidget {
   const TChoiceChip({

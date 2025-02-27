@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/enums.dart';
+import '../../../utils/constants/enums.dart';
+
 
 class TCategoryTitleText extends StatelessWidget {
   const TCategoryTitleText(

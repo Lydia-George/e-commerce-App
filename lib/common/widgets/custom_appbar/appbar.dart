@@ -1,11 +1,14 @@
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/device/device_utility.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../utlis/constants/sizes.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/device/device_utility.dart';
+import '../../../utils/helpers/helper_functions.dart';
+
+
 
 class TAppBar extends StatelessWidget implements PreferredSizeWidget {
   const TAppBar(

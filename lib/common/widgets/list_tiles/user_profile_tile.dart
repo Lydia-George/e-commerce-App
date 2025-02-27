@@ -2,8 +2,8 @@ import 'package:ecommerce_app/features/personalization/controllers/user_controll
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/constants/image_strings.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/image_strings.dart';
 import '../images/circular_image.dart';
 class TUserProfileTile extends StatelessWidget {
   const TUserProfileTile({

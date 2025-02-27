@@ -1,8 +1,4 @@
 import 'package:ecommerce_app/features/personalization/models/address_model.dart';
-import 'package:ecommerce_app/utlis/helpers/network_manager.dart';
-import 'package:ecommerce_app/utlis/popups/circular_loader.dart';
-import 'package:ecommerce_app/utlis/popups/full_screen_loader.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -10,8 +6,11 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 
 import '../../../data/repositories/address/address_repository.dart';
-import '../../../utlis/constants/image_strings.dart';
-
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/popups/circular_loader.dart';
+import '../../../utils/popups/full_screen_loader.dart';
+import '../../../utils/popups/loaders.dart';
 class AddressController extends GetxController {
   static AddressController get instance => Get.find();
 

@@ -1,10 +1,10 @@
 import 'package:ecommerce_app/common/widgets/texts/section_heading.dart';
 import 'package:ecommerce_app/features/shop/screens/checkout/widgets/payment_tile.dart';
-import 'package:ecommerce_app/utlis/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../utlis/constants/sizes.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
 import '../../models/payment_method_model.dart';
 
 class CheckoutController extends GetxController {

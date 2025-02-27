@@ -1,13 +1,13 @@
 import 'package:ecommerce_app/features/shop/controllers/product/cart_controller.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
 import 'package:ecommerce_app/features/shop/screens/product_details/product_detail.dart';
-import 'package:ecommerce_app/utlis/constants/enums.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../utlis/constants/colors.dart';
-import '../../../../../utlis/constants/sizes.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/enums.dart';
+import '../../../../../utils/constants/sizes.dart';
 
 class ProductCartAddToCartButton extends StatelessWidget {
   const ProductCartAddToCartButton({

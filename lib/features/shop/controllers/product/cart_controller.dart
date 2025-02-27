@@ -1,10 +1,11 @@
 import 'package:ecommerce_app/features/shop/controllers/product/variation_controller.dart';
 import 'package:ecommerce_app/features/shop/models/cart_item_model.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
-import 'package:ecommerce_app/utlis/constants/enums.dart';
-import 'package:ecommerce_app/utlis/local_storage/storage_utility.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:get/get.dart';
+
+import '../../../../utils/constants/enums.dart';
+import '../../../../utils/local_storage/storage_utility.dart';
+import '../../../../utils/popups/loaders.dart';
 
 class CartController extends GetxController {
   static CartController get instance => Get.find();

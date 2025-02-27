@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../../../utlis/formatters/formatters.dart';
-
+import '../../../utils/formatters/formatters.dart';
 /// Model class repository user data
 
 class UserModel {

@@ -1,7 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecommerce_app/common/widgets/products/favourite_icon/favourite_icon.dart';
 import 'package:ecommerce_app/features/shop/controllers/product/images_controller.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -11,9 +10,9 @@ import '../../../../../common/widgets/custom_appbar/appbar.dart';
 import '../../../../../common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
 import '../../../../../common/widgets/icons/circular_icon.dart';
 import '../../../../../common/widgets/images/rounded_image.dart';
-import '../../../../../utlis/constants/colors.dart';
-import '../../../../../utlis/constants/image_strings.dart';
-import '../../../../../utlis/constants/sizes.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 import '../../../models/product_model.dart';
 
 class TProductImageSlider extends StatelessWidget {

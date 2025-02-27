@@ -1,6 +1,7 @@
 import 'package:ecommerce_app/features/shop/controllers/product/variation_controller.dart';
-import 'package:ecommerce_app/utlis/helpers/network_manager.dart';
 import 'package:get/get.dart';
+
+import '../utils/helpers/network_manager.dart';
 
 class GeneralBindings extends Bindings{
   @override

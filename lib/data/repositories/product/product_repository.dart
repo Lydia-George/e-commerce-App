@@ -1,9 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
-import 'package:ecommerce_app/utlis/exceptions/firebase_exceptions.dart';
-import 'package:ecommerce_app/utlis/exceptions/platform_exceptions.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+
+import '../../../utils/exceptions/firebase_exceptions.dart';
+import '../../../utils/exceptions/platform_exceptions.dart';
 
 /// Repository for managing product-related data and operations.
 class ProductRepository extends GetxController{

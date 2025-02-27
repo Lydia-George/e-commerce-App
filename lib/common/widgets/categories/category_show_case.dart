@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/constants/sizes.dart';
-import '../../../utlis/helpers/helper_functions.dart';
+
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/helpers/helper_functions.dart';
 import '../custom_shapes/containers/circular_container.dart';
 import 'category_card.dart';
 class TCategoryShowCase extends StatelessWidget {

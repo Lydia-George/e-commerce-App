@@ -1,9 +1,10 @@
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../../../../common/widgets/texts/section_heading.dart';
-import '../../../../../utlis/constants/colors.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 class TBillingAddressSection extends StatelessWidget {
   const TBillingAddressSection({super.key});
 

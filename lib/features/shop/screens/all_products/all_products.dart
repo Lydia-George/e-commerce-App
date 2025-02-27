@@ -2,13 +2,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ecommerce_app/common/widgets/custom_appbar/appbar.dart';
 import 'package:ecommerce_app/common/widgets/shimmers/vertical_product_shimmer.dart';
 import 'package:ecommerce_app/features/shop/controllers/all_products_controller.dart';
-import 'package:ecommerce_app/utlis/helpers/cloud_helper_function.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
 import '../../../../common/widgets/products/sortable/sortable_products.dart';
-import '../../../../utlis/constants/sizes.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/cloud_helper_function.dart';
 import '../../models/product_model.dart';
 
 class AllProducts extends StatelessWidget {

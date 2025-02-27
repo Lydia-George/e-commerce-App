@@ -1,9 +1,10 @@
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
-import 'package:ecommerce_app/utlis/helpers/pricing_calculator.dart';
+
 import 'package:flutter/material.dart';
 
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
+import '../../../../../utils/helpers/pricing_calculator.dart';
 import '../../../controllers/product/cart_controller.dart';
 class TBillingAmountSection extends StatelessWidget {
   const TBillingAmountSection({super.key});

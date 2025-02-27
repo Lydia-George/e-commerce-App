@@ -4,19 +4,18 @@ import 'package:ecommerce_app/common/widgets/loaders/animation_loader.dart';
 import 'package:ecommerce_app/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:ecommerce_app/common/widgets/shimmers/vertical_product_shimmer.dart';
 import 'package:ecommerce_app/features/shop/controllers/product/favourites_controller.dart';
-import 'package:ecommerce_app/features/shop/models/product_model.dart';
 import 'package:ecommerce_app/features/shop/screens/home/home.dart';
 import 'package:ecommerce_app/navigation_menu.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/constants/image_strings.dart';
-import 'package:ecommerce_app/utlis/helpers/cloud_helper_function.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../common/widgets/layouts/grid_layout.dart';
-import '../../../../utlis/constants/sizes.dart';
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/cloud_helper_function.dart';
+import '../../../../utils/helpers/helper_functions.dart';
 
 class WishlistScreen extends StatelessWidget {
   const WishlistScreen({super.key});
@@ -47,7 +46,7 @@ class WishlistScreen extends StatelessWidget {
                 future: controller.favouriteProducts(),
                 builder: (context, snapshot) {
                   final emptyWidget = TAnimationLoaderWidget(
-                    text: 'Ooooops! Whishlist is Empty...',
+                    text: 'Ooooops! WhishList is Empty...',
                     animation: TImages.pencilAnimation,
                     showAction: true,
                     actionText: 'Let\' s add Some',

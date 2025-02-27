@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 
 import '../../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
 import '../../../../../common/widgets/shimmers/category_shimmer.dart';
-import '../../../../../utlis/constants/colors.dart';
+import '../../../../../utils/constants/colors.dart';
 
 class THomeCategories extends StatelessWidget {
   const THomeCategories({

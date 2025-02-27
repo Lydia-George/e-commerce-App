@@ -1,14 +1,13 @@
 import 'package:ecommerce_app/features/authentication/controllers/login/login_controller.dart';
 import 'package:ecommerce_app/features/authentication/screens/signup/signup_screen.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
-import 'package:ecommerce_app/utlis/validators/validation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-
-import '../../../../../utlis/constants/sizes.dart';
-import '../../../../../utlis/constants/text_strings.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
+import '../../../../../utils/validators/validation.dart';
 import '../../password_configuration/forget_password.dart';
 
 class TLoginForm extends StatelessWidget {

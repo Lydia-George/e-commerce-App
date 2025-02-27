@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../../utlis/constants/colors.dart';
-import '../../../../../utlis/constants/sizes.dart';
-import '../../../../../utlis/constants/text_strings.dart';
-import '../../../../../utlis/helpers/helper_functions.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
 import '../../../controllers/signup/signup_controller.dart';
 class TTermsAndConditionCheckbox extends StatelessWidget {
   const TTermsAndConditionCheckbox({

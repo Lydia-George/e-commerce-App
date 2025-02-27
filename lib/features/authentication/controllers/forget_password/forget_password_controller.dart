@@ -1,13 +1,11 @@
 import 'package:ecommerce_app/features/authentication/screens/password_configuration/reset_password.dart';
-import 'package:ecommerce_app/utlis/helpers/network_manager.dart';
-import 'package:ecommerce_app/utlis/popups/full_screen_loader.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-
 import '../../../../data/repositories/authentication/authentication_repository.dart';
-import '../../../../utlis/constants/image_strings.dart';
-
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/helpers/network_manager.dart';
+import '../../../../utils/popups/full_screen_loader.dart';
+import '../../../../utils/popups/loaders.dart';
 class ForgetPasswordController extends GetxController {
   static ForgetPasswordController get instance => Get.find();
 

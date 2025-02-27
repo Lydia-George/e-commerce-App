@@ -2,9 +2,10 @@ import 'dart:convert';
 
 import 'package:ecommerce_app/data/repositories/product/product_repository.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
-import 'package:ecommerce_app/utlis/local_storage/storage_utility.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:get/get.dart';
+
+import '../../../../utils/local_storage/storage_utility.dart';
+import '../../../../utils/popups/loaders.dart';
 
 class FavouritesController extends GetxController{
   static FavouritesController get instance => Get.find();

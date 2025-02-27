@@ -6,16 +6,16 @@ import 'package:ecommerce_app/common/widgets/texts/product_price_text.dart';
 import 'package:ecommerce_app/features/shop/controllers/product/product_controller.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
 import 'package:ecommerce_app/features/shop/screens/product_details/product_detail.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../features/shop/screens/cart/widgets/add_to_cart_button.dart';
-import '../../../../utlis/constants/colors.dart';
-import '../../../../utlis/constants/enums.dart';
-import '../../../../utlis/constants/image_strings.dart';
-import '../../../../utlis/constants/sizes.dart';
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/enums.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/helper_functions.dart';
+
 import '../../icons/circular_icon.dart';
 import '../../texts/category_title_text_with_verified_icon.dart';
 import '../../texts/product_title_text.dart';

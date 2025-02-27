@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ecommerce_app/data/repositories/product/product_repository.dart';
 import 'package:ecommerce_app/features/shop/models/product_model.dart';
-import 'package:ecommerce_app/utlis/popups/loaders.dart';
 import 'package:get/get.dart';
+
+import '../../../utils/popups/loaders.dart';
 
 class AllProductsController extends GetxController{
   static AllProductsController get instance => Get.find();

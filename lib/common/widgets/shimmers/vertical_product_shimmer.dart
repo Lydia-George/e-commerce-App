@@ -2,8 +2,7 @@ import 'package:ecommerce_app/common/widgets/layouts/grid_layout.dart';
 import 'package:ecommerce_app/common/widgets/shimmers/shimmer.dart';
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/sizes.dart';
-
+import '../../../utils/constants/sizes.dart';
 class TVerticalProductShimmer extends StatelessWidget {
   const TVerticalProductShimmer({super.key, this.itemCount = 4});
 

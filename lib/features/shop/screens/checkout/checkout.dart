@@ -5,15 +5,17 @@ import 'package:ecommerce_app/features/shop/screens/checkout/widgets/billing_add
 import 'package:ecommerce_app/features/shop/screens/checkout/widgets/billing_amount_section.dart';
 import 'package:ecommerce_app/features/shop/screens/checkout/widgets/billing_payment_section.dart';
 import 'package:ecommerce_app/navigation_menu.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../../common/widgets/custom_appbar/appbar.dart';
 import '../../../../common/widgets/products/cart/coupon_widget.dart';
-import '../../../../utlis/constants/colors.dart';
-import '../../../../utlis/constants/image_strings.dart';
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/helpers/helper_functions.dart';
+
 
 class CheckoutScreen extends StatelessWidget {
   const CheckoutScreen({super.key});

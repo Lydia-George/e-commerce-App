@@ -1,8 +1,9 @@
 import 'package:ecommerce_app/features/shop/screens/product_reviews/widgets/product_indicator_and_rating.dart';
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../utlis/constants/colors.dart';
+import '../../../../../utils/constants/colors.dart';
+import '../../../../../utils/helpers/helper_functions.dart';
+
 class TOverallProductRating extends StatelessWidget {
   const TOverallProductRating({
     super.key,

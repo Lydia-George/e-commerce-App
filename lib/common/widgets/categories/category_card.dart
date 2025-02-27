@@ -1,9 +1,10 @@
-import 'package:ecommerce_app/utlis/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/constants/image_strings.dart';
-import '../../../utlis/constants/sizes.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/helpers/helper_functions.dart';
+
 import '../custom_shapes/containers/circular_container.dart';
 import '../images/circular_image.dart';
 import '../texts/category_title_text_with_verified_icon.dart';
@@ -33,7 +34,7 @@ class TCategoryCard extends StatelessWidget {
         child: Row(
           children: [
             /// Icon
-            const Flexible(
+             Flexible(
               child: TCircularImage(
                 isNetworkImage: false,
                 image: TImages.cosmeticsIcon,

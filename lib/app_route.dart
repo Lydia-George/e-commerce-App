@@ -1,7 +1,8 @@
 import 'package:ecommerce_app/bindings/general_bindings.dart';
 import 'package:ecommerce_app/routes/app_routes.dart';
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/theme/theme.dart';
+import 'package:ecommerce_app/utils/constants/colors.dart';
+import 'package:ecommerce_app/utils/theme/theme.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

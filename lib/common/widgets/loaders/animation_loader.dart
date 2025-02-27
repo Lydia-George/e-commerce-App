@@ -1,7 +1,9 @@
-import 'package:ecommerce_app/utlis/constants/colors.dart';
-import 'package:ecommerce_app/utlis/constants/sizes.dart';
+
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/sizes.dart';
 
 /// A widget for displaying on animated loading indicator with optional text and action button
 class TAnimationLoaderWidget extends StatelessWidget {

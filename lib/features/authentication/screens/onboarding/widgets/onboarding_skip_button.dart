@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../utlis/constants/sizes.dart';
-import '../../../../../utlis/device/device_utility.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/device/device_utility.dart';
 import '../../../controllers/onboarding/onboarding_controller.dart';
 
 

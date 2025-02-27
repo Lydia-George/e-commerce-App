@@ -1,8 +1,9 @@
-import 'package:ecommerce_app/utlis/device/device_utility.dart';
 import 'package:flutter/material.dart';
 
-import '../../../utlis/constants/colors.dart';
-import '../../../utlis/helpers/helper_functions.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/device/device_utility.dart';
+import '../../../utils/helpers/helper_functions.dart';
+
 
 class TTabBar extends StatelessWidget implements PreferredSizeWidget{
 

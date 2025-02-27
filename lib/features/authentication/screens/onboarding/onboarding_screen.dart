@@ -4,13 +4,11 @@ import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets
 import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets/onboarding_pages.dart';
 import 'package:ecommerce_app/features/authentication/screens/onboarding/widgets/onboarding_skip_button.dart';
 
-import 'package:ecommerce_app/utlis/constants/image_strings.dart';
-
-import 'package:ecommerce_app/utlis/constants/text_strings.dart';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 import '../../controllers/onboarding/onboarding_controller.dart';
 
 

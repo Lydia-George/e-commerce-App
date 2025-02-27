@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../utlis/constants/colors.dart';
-import '../../../../utlis/constants/sizes.dart';
-import '../../../../utlis/device/device_utility.dart';
-import '../../../../utlis/helpers/helper_functions.dart';
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/device/device_utility.dart';
+import '../../../../utils/helpers/helper_functions.dart';
+
+
 
 class TSearchContainer extends StatelessWidget {
   const TSearchContainer({
