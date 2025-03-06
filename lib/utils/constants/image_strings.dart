@@ -23,6 +23,7 @@ static const String facebook = "assets/logos/fb.png";
   static const String docerAnimation = "assets/images/animations/docer_animation.json";
   static const String pencilAnimation = "assets/images/animations/pencil_animation.json";
   static const String cartAnimation = "assets/images/animations/cart_animation.json";
+  static const String orderCompleteAnimation = "assets/images/animations/order_complete_animation.json";
 
 
   // -- Category Icons

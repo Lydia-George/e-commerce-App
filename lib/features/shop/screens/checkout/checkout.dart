@@ -18,7 +18,7 @@ import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/helpers/helper_functions.dart';
-
+import '../../controllers/product/order_controller.dart';
 
 class CheckoutScreen extends StatelessWidget {
   const CheckoutScreen({super.key});
@@ -29,7 +29,8 @@ class CheckoutScreen extends StatelessWidget {
     final subTotal = cartController.totalCartPrice.value;
 
     final orderController = Get.put(OrderController());
-    final totalAmount = TPricingCalculator.calculateTotalPrice(subTotal, 'Egypt');
+    final totalAmount =
+        TPricingCalculator.calculateTotalPrice(subTotal, 'Egypt');
 
     final dark = THelperFunctions.isDarkMode(context);
 
@@ -103,11 +104,12 @@ class CheckoutScreen extends StatelessWidget {
             style: ElevatedButton.styleFrom(
                 backgroundColor: TColors.primaryColor,
                 side: const BorderSide(color: Colors.transparent)),
-
-            onPressed: subTotal > 0 ?
-            () => orderController.processOrder(totalAmount)
-            : () => TLoaders.warningSnackBar(title: 'Empty Cart ' , message: 'Add items in the cart in order to proceed'),
-            child:  Text(
+            onPressed: subTotal > 0
+                ? () => orderController.processOrder(totalAmount)
+                : () => TLoaders.warningSnackBar(
+                    title: 'Empty Cart ',
+                    message: 'Add items in the cart in order to proceed'),
+            child: Text(
               "CheckOut $totalAmount L.E",
               style: const TextStyle(color: TColors.secondaryColor),
             )),
