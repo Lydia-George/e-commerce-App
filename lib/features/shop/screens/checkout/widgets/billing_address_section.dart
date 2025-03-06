@@ -24,6 +24,7 @@ class TBillingAddressSection extends StatelessWidget {
         ),
         addressController.selectedAddress.value.id.isNotEmpty ?
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Maria Doe", style: Theme.of(context).textTheme.bodyLarge!.apply(color: dark? TColors.secondaryColor: TColors.primaryColor),),
             const SizedBox(height: TSizes.spaceBtwItems/2,),

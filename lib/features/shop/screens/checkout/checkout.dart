@@ -1,10 +1,13 @@
 import 'package:ecommerce_app/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:ecommerce_app/common/widgets/success_screen/success_screen.dart';
+import 'package:ecommerce_app/features/shop/controllers/product/cart_controller.dart';
 import 'package:ecommerce_app/features/shop/screens/cart/widgets/cart_items.dart';
 import 'package:ecommerce_app/features/shop/screens/checkout/widgets/billing_address_section.dart';
 import 'package:ecommerce_app/features/shop/screens/checkout/widgets/billing_amount_section.dart';
 import 'package:ecommerce_app/features/shop/screens/checkout/widgets/billing_payment_section.dart';
 import 'package:ecommerce_app/navigation_menu.dart';
+import 'package:ecommerce_app/utils/helpers/pricing_calculator.dart';
+import 'package:ecommerce_app/utils/popups/loaders.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -22,7 +25,14 @@ class CheckoutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final cartController = CartController.instance;
+    final subTotal = cartController.totalCartPrice.value;
+
+    final orderController = Get.put(OrderController());
+    final totalAmount = TPricingCalculator.calculateTotalPrice(subTotal, 'Egypt');
+
     final dark = THelperFunctions.isDarkMode(context);
+
     return Scaffold(
       appBar: TAppBar(
         showBackArrow: true,
@@ -93,14 +103,13 @@ class CheckoutScreen extends StatelessWidget {
             style: ElevatedButton.styleFrom(
                 backgroundColor: TColors.primaryColor,
                 side: const BorderSide(color: Colors.transparent)),
-            onPressed: () => Get.to(() => SuccessScreen(
-                image: TImages.successfulPaymentIcon,
-                title: "Payment Success!",
-                subTitle: "Your item will be shipped soon!",
-                onPressed: () => Get.offAll(() => const NavigationMenu()))),
-            child: const Text(
-              "CheckOut 125 L.E",
-              style: TextStyle(color: TColors.secondaryColor),
+
+            onPressed: subTotal > 0 ?
+            () => orderController.processOrder(totalAmount)
+            : () => TLoaders.warningSnackBar(title: 'Empty Cart ' , message: 'Add items in the cart in order to proceed'),
+            child:  Text(
+              "CheckOut $totalAmount L.E",
+              style: const TextStyle(color: TColors.secondaryColor),
             )),
       ),
     );
