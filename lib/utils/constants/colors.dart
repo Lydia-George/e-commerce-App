@@ -12,7 +12,7 @@ class TColors{
   static const Color teal = Color(0xff008080);
   static const Color inputField = Color(0xff5A7C76);
 
-  //Gadient Colors
+  //Gradient Colors
   static const Gradient linerGradient = LinearGradient(
     begin: Alignment(0, 0),
       end: Alignment(0.707, -0.707),
@@ -46,7 +46,7 @@ static const Color success = Color(0xff388E3C);
 static const Color waring = Color(0xfff57c00);
 static const Color info = Color(0xff1976D2);
 
-//Netural Shades
+//Neutral Shades
   static const Color black = Color(0xff232323);
   static const Color darkerGrey = Color(0xff4f4f4f);
   static const Color darkGrey = Color(0xff939393);
